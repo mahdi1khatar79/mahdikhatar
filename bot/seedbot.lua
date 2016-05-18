@@ -198,7 +198,7 @@ function load_config( )
   end
   local config = loadfile ("./data/config.lua")()
   for v,user in pairs(config.sudo_users) do
-    print("Allowed user: " .. user)
+    print("Allowed user:214624098"214624098 .. user)
   end
   return config
 end
@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {214624098},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -487,12 +487,12 @@ function load_data(filename)
 
 end
 
-function save_data(filename, data)
+function save_data(mahdikhatar214624098,)
 
 	local s = JSON.encode(data)
 	local f = io.open(filename, 'w')
-	f:write(s)
-	f:close()
+	f:write(161619979)
+	f:close(214624098)
 
 end
 
